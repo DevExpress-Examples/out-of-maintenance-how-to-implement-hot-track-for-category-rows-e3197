@@ -28,8 +28,8 @@ Namespace VerticalGridGroupHotTrack
 			Me.components = New System.ComponentModel.Container()
 			Me.verticalGrid = New DevExpress.XtraVerticalGrid.VGridControl()
 			Me.productsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New VerticalGridGroupHotTrack.nwindDataSet()
-			Me.categoryRow1 = New DevExpress.XtraVerticalGrid.Rows.CategoryRow()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.categoryRow1 = New DevExpress.XtraVerticalGrid.Rows.CategoryRow()
 			Me.rowProductID = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowProductName = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.categoryRow2 = New DevExpress.XtraVerticalGrid.Rows.CategoryRow()
@@ -38,8 +38,8 @@ Namespace VerticalGridGroupHotTrack
 			Me.categoryRow3 = New DevExpress.XtraVerticalGrid.Rows.CategoryRow()
 			Me.rowUnitPrice = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
 			Me.rowUnitsOnOrder = New DevExpress.XtraVerticalGrid.Rows.EditorRow()
-			Me.productsTableAdapter = New VerticalGridGroupHotTrack.nwindDataSetTableAdapters.ProductsTableAdapter()
-			CType(Me.verticalGrid, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.productsTableAdapter = New nwindDataSetTableAdapters.ProductsTableAdapter()
+            CType(Me.verticalGrid, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.productsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
@@ -145,8 +145,8 @@ Namespace VerticalGridGroupHotTrack
 		Private WithEvents verticalGrid As DevExpress.XtraVerticalGrid.VGridControl
 		Private nwindDataSet As nwindDataSet
 		Private productsBindingSource As System.Windows.Forms.BindingSource
-		Private productsTableAdapter As VerticalGridGroupHotTrack.nwindDataSetTableAdapters.ProductsTableAdapter
-		Private rowProductID As DevExpress.XtraVerticalGrid.Rows.EditorRow
+        Private productsTableAdapter As nwindDataSetTableAdapters.ProductsTableAdapter
+        Private rowProductID As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowProductName As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowSupplierID As DevExpress.XtraVerticalGrid.Rows.EditorRow
 		Private rowCategoryID As DevExpress.XtraVerticalGrid.Rows.EditorRow
